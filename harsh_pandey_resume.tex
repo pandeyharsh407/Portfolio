@@ -1,0 +1,155 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\definecolor{darkblue}{RGB}{0,0,110}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    urlcolor=darkblue,
+    citecolor=darkblue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[letterpaper, top=0.5in, bottom=0.4in, left=0.5in, right=0.5in]{geometry}
+
+\urlstyle{same}
+\flushbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Harsh Pandey} \\ \vspace{6pt}
+    \small \href{tel:+918811943389}{+91-8811943389} $|$
+    \href{mailto:pandeyharsh407@gmail.com}{pandeyharsh407@gmail.com} $|$
+    \href{https://linkedin.com/in/pandeyharsh407}{LinkedIn/pandeyharsh407} $|$
+    \href{https://github.com/pandeyharsh407}{GitHub/pandeyharsh407}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeSubHeadingListStart
+\resumeItem{Microsoft Certified Azure/Fabric Data Engineer with expertise in \textbf{SQL, PySpark, Power BI, ADF, and ADB}. building scalable end-to-end data platforms and transforming data into actionable, high-impact business insights.}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE & PROJECTS-----------
+\section{Experience \& Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://drive.google.com/file/d/1tqnj_sUmViAjF2C1uyxElD9yTSOL0MM0/view}{Data Engineer II}}{Mar 2026 -- Present}
+{MAQ Software}{}
+\resumeItemListStart
+\resumeItem{Leading migration of \textbf{180+ notebooks} and \textbf{20+ pipelines} from \textbf{ADB, ADF}, and \textbf{ADLS gen2} to \textbf{Microsoft Fabric}, mentoring junior engineers and centralizing processing, orchestration, and reporting on a unified platform.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://drive.google.com/file/d/1hlVWCu7aBaVjF7N0C9d5lv08jO_bi9TK/view}{Data Engineer 1}}{Sep 2023 -- Mar 2026}
+{MAQ Software}{}
+\resumeItemListStart
+\resumeItem{Collaborated with \textbf{7+ Microsoft clients} to deliver scalable data solutions, leading requirements gathering in an Agile environment and owning end-to-end development, testing, and maintenance.}
+\resumeItem{Ingested and processed \textbf{600M+ revenue records} using \textbf{ADF pipelines}; transformed data across Bronze and Silver layers (\textbf{130M+ curated}) in \textbf{ADB}, and enabled business reporting in Power BI across \textbf{6+ dashboards}.}
+\resumeItem{Developed and delivered \textbf{4+ Power BI dashboards}, integrating data from \textbf{multiple sources} (SSAS, databases, Excel, lakehouses, Snowflake), and building scalable ETL pipelines and data models handling \textbf{100M+ records}.}
+\resumeItem{Optimized \textbf{4+ high-impact Power BI reports}, reducing page load time by \textbf{30--40\%} and implementing \textbf{RLS}.}
+\resumeItem{Developed a \textbf{Power BI metadata glossary} in Microsoft Fabric using \textbf{PySpark, GPT API}, and \textbf{SemPy}, automating documentation for \textbf{20+ production reports} and cutting manual effort by \textbf{90\%}.}
+\resumeItem{\textbf{Excel Automation} (Python, Openpyxl, Pandas, FuzzyWuzzy) -- reduced manual effort by \textbf{90\%} by automating extraction from multiple SharePoint-based Excel and PPT files.}
+\resumeItem{Built \textbf{BVT frameworks} via \textbf{ADF pipelines} and notebooks to automate post-refresh validation of \textbf{5+ large datasets} with email alerts; streamlined QA using \textbf{Python, SQL, Git, Microsoft Teams, Outlook, and Copilot}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://drive.google.com/file/d/19CZ4yQlxzLtGS5Zx-itC0Dl4CJaCCTVo/view}{Software Engineering Intern}}{Jun 2023 -- Aug 2023}
+{Persistent Systems}{}
+\resumeItemListStart
+\resumeItem{Gained hands-on experience with \textbf{Python, Git, OS, DBMS} through real-world team projects.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://drive.google.com/file/d/1zHEl32daliEMJv9_ip_WQfZieFvnLRSh/view?usp=sharing}{B.Tech in Computer Science}}{2020 -- 2024}
+{GL Bajaj Institute of Technology \& Management, Greater Noida}{CGPA: \textbf{8.05}/10.00}
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Data Engineering}{: Azure Databricks, Azure Data Factory, Microsoft Fabric, PySpark, Data Warehousing, CI/CD, Power BI, DAX, RLS, Tabular Editor} \\
+     \textbf{Databases}{: MS SQL Server (T-SQL), MongoDB} \\
+     \textbf{ML \& Python Automation}{: Python, Pandas, NumPy, PyTorch, Transformers, Openpyxl, FuzzyWuzzy} \\
+     \textbf{Tools}{: Azure DevOps, Git, SSMS, Tabular Editor} \\
+     \textbf{Core Skills}{: C/C++, OOP, DSA, Agile, SDLC, STLC, Copilot Agents, LLM Models, Office 365} \\
+     \textbf{Other Skills}{: Snowflake, JSON, HTML, CSS, JavaScript, React, Tailwind}
+    }}
+ \end{itemize}
+
+%-----------ACHIEVEMENTS & CERTIFICATIONS-----------
+\section{Achievements \& Certifications}
+\begin{itemize}[leftmargin=*, noitemsep]
+  \item Microsoft Certified: \href{https://learn.microsoft.com/en-us/users/pandeyharsh407/credentials/1a74a8b2bef774fb}{\textbf{Fabric Data Engineer Associate (DP-700)}}
+  \item Microsoft Certified: \href{https://learn.microsoft.com/api/credentials/share/en-us/pandeyharsh407/60E65BB0D61CBC83}{\textbf{Fabric Analytics Engineer Associate (DP-600)}}
+  \item Microsoft Certified: \href{https://learn.microsoft.com/en-us/users/harshpandey-8148/credentials/bff37d5af033ebe9}{\textbf{Azure Database Administrator Associate (DP-300)}}
+  \item Microsoft Certified: \href{https://learn.microsoft.com/en-us/users/harshpandey-1754/credentials/41f7569c929fc296}{\textbf{Power BI Data Analyst Associate (PL-300)}}
+  \item Microsoft Certified: \href{https://learn.microsoft.com/api/credentials/share/en-us/pandeyharsh407/76878ABA437AB7C8}{\textbf{Azure Fundamentals (AZ-900)}}
+  \item Snowflake Certified: \href{https://achieve.snowflake.com/6e5d143a-8f99-4d5c-8cc8-df83a4445c00}{\textbf{SnowPro Core}}
+  \item Solved \textbf{550+} coding problems on
+    \href{https://leetcode.com/pandeyharsh407}{LeetCode},
+    \href{https://www.geeksforgeeks.org/user/pandeyharsh407}{GFG}, and
+    \href{https://www.hackerrank.com/profile/pandeyharsh407}{HackerRank}.
+\end{itemize}
+
+\end{document}
